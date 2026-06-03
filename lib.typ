@@ -39,7 +39,6 @@
     [#col3],
     [],
   )
-  set text(font: ("Times New Roman", "Yu Mincho"), lang: "jp", size: 12pt)
 
   align((center + horizon), heading(numbering: none, title))
   grid(
@@ -89,7 +88,7 @@
     ),
     table(
       rows: rows,
-      columns: (3.7fr, 3fr, 0.75fr, 0.75fr, 1.5fr),
+      columns: (3.7fr, 3fr, 1fr, 1fr, 1fr),
       align: (center + horizon),
       stroke: (x: 1pt, y: 1pt),
       [*科目名*], [*テーマ指導教員*], [*学年*], [*学期*], [*単位*],
